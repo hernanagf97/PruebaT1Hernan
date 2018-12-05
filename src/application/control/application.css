@@ -1,0 +1,23 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.backgroundtop{
+	-fx-background-image: url("../view/assets/blueforest.jpg");
+	-fx-background-repeat: repeat ;   
+    -fx-background-position: center ;
+}
+
+.botones{
+	-fx-background-color: rgb(249,201,57);
+	-fx-background-radius: 5;
+	-fx-font-style: normal ;
+	-fx-font-size: 15;
+}
+.botones:hover {-fx-background-color: rgb(192,192,192);
+			-fx-text-fill: rgb(255,255,255);
+			-fx-font-style: normal ;
+}
+
+.letra{
+	-fx-font-family: "Indie Flower";
+	-fx-font-size: 30;
+}
